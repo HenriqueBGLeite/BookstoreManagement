@@ -23,10 +23,10 @@ Livros (/api/books)
 
 # Regras de Negócio Implementadas
 
-Validação de Campos: Título, autor e gênero não podem ser nulos.
+* Validação de Campos: Título, autor e gênero não podem ser nulos.
 
-Título Único: A API impede o cadastro de dois livros com o mesmo título e autor na memória.
+* Título Único: A API impede o cadastro de dois livros com o mesmo título e autor na memória.
 
-Gêneros Aceitos: Validação via FluentValidation para garantir que apenas gêneros pré-definidos sejam aceitos.
+* Gêneros Aceitos: Validação via FluentValidation para garantir que apenas gêneros pré-definidos sejam aceitos.
 
-Tratamento de Erros: Respostas padronizadas com status 400 (Bad Request) e 404 (Not Found) contendo a lista de erros.
+* Tratamento de Erros: Respostas padronizadas com status 400 (Bad Request) e 404 (Not Found) contendo a lista de erros.
